@@ -2,6 +2,7 @@
 
 
 FILE=~/tmp/_SUDDEN
+DATE=$(date +"%Y%m%d %H:%M:%S")
 
 while true
 do
@@ -10,8 +11,9 @@ do
 	    echo "SUDDEN!!!"
 	else 
 		clear
-		firglet KIA
-		date
+		figlet KIA
+		echo $DATE
+
 	fi
     	sleep 3
 	
