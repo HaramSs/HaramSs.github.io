@@ -6,5 +6,5 @@
 - 1.5.1 : HYUNDAI
 - 1.6.0 : Bentley
 - 1.7.0 : Porsche
-- 3.0.0 : SUDDEN SHELL SCRIPT
-
+- 1.8.0 : 마세라티
+- 3.0.1 : fix 업데이트
