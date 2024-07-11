@@ -10,9 +10,9 @@ do
 	    echo "SUDDEN!!!"
 	else 
 		clear
+		firglet KIA
 		date
 	fi
     	sleep 3
-	firglet KIA	
 	
 done
