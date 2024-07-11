@@ -4,8 +4,12 @@ FILE=~/tmp/_SUDDEN
 
 while true
 do
-	if [ -f ./sudden.sh ]; then
-    echo "SUDDEN!!!"
-    sleep 3
-fi
+	if [[ -f "$FILE" ]]; then
+	    echo "SUDDEN!!!"
+	else 
+		clear
+		date
+	fi
+    	sleep 3
+	
 done
